@@ -1,0 +1,66 @@
+### Ambiente ###
+/.env
+/.env.*.local
+/.env.backup
+Homestead.yaml
+Homestead.json
+.phpunit.result.cache
+/.docker/
+
+### Dependências ###
+/vendor/
+/node_modules/
+
+### Cache/Logs ###
+/storage/framework/cache/data/
+/storage/framework/views/
+/storage/framework/sessions/
+/storage/logs/
+/storage/debugbar/
+/bootstrap/cache/
+*.log
+*.tmp
+
+### Assets compilados ###
+/public/js/
+/public/css/
+/public/hot
+/public/storage
+/public/mix-manifest.json
+
+### Testes/cobertura ###
+/coverage/
+
+### IDEs ###
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+### Sistema ###
+.DS_Store
+Thumbs.db
+*.sqlite
+*.sqlite-journal
+
+### Composer ###
+composer.phar
+composer.lock
+
+### Frontend ###
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+### Backup/Arquivos temporários ###
+*.backup
+*.bak
+*.swp
+*~
+~$*
+
+### Laravel específico ###
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
